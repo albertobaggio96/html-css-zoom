@@ -10,11 +10,31 @@ body{
   color: white;
 }
 
+
 main{
   margin-top: 5rem;
   display: flex;
   justify-content: center;
 }
+
+aside span,
+main .box span{
+  background-color: rgba(37, 35, 35, 0.788);
+  padding: .3rem;
+  margin-right: .3rem;
+}
+
+aside div{
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+
+aside span{
+  border-radius: 5px;
+}
+
+
 
 section{
   width: 100%;
@@ -35,9 +55,7 @@ section{
 }
 
 .box span{
-  background-color: rgba(0, 0, 0, 0.377);
-  padding: .3rem;
-  position: absolute;
   bottom: 0;
+  position: absolute;
 }
 
