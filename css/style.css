@@ -9,15 +9,25 @@ body{
   background-color: black;
 }
 
-section{
-  width: 90vw;
-  height: 80vh;
-  background-color: red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+main{
+  margin-top: 5rem;
   display: flex;
+  justify-content: center;
+}
+
+section{
+  width: 100%;
+  max-width: 1400px;
+  height: 80vh;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
+.box{
+  width: 12rem;
+  height: 7.5rem;
+  background-image: url(https://picsum.photos/200/300);
+  margin: .2rem;
+}
