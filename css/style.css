@@ -74,7 +74,7 @@ nav{
 nav div.container{
   width: 100vw;
   height: 3.5rem;
-  background-color: rgb(52, 52, 52);
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
 }
@@ -98,7 +98,7 @@ nav i{
 nav button{
   padding: 0 .5rem;
   color: red;
-  background-color: gray;
+  background-color: #4a4a4a;
   border: none;
 }
 
@@ -107,7 +107,7 @@ i.fa-angle-up{
 }
 
 i.fa-share-from-square{
-  color: green;
+  color: #4ac700;
 }
 
 /* end nav */
