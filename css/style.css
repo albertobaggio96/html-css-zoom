@@ -10,13 +10,14 @@ body{
   color: white;
 }
 
-
+/* main */
 main{
   margin-top: 5rem;
   display: flex;
   justify-content: center;
 }
 
+/* aside */
 aside span,
 main .box span{
   background-color: rgba(37, 35, 35, 0.788);
@@ -33,9 +34,9 @@ aside div{
 aside span{
   border-radius: 5px;
 }
+/* end aside */
 
-
-
+/* video section */
 section{
   width: 100%;
   max-width: 1400px;
@@ -58,6 +59,9 @@ section{
   bottom: 0;
   position: absolute;
 }
+/* end video section */
+
+/* nav */
 
 nav{
   position: fixed;
@@ -70,10 +74,9 @@ nav{
 nav div.container{
   width: 100vw;
   height: 3.5rem;
-  background-color: gray;
+  background-color: rgb(52, 52, 52);
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 
@@ -83,9 +86,28 @@ ul li{
   padding: .3rem;
   justify-content: center;
   font-size: .8rem;
+  vertical-align: middle;
+  text-align: center;
 }
 
 nav i{
-  
   font-size: 1.7rem;
+
 }
+
+nav button{
+  padding: 0 .5rem;
+  color: red;
+  background-color: gray;
+  border: none;
+}
+
+i.fa-angle-up{
+  font-size: .8rem;
+}
+
+i.fa-share-from-square{
+  color: green;
+}
+
+/* end nav */
