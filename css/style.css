@@ -59,3 +59,24 @@ section{
   position: absolute;
 }
 
+nav{
+  position: fixed;
+  height: calc(100vh - 5rem);
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+nav div.container{
+  width: 100vw;
+  height: 3rem;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  display: inline;
+}
