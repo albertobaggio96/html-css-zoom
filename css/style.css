@@ -6,4 +6,18 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: black;
 }
+
+section{
+  width: 90vw;
+  height: 80vh;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
